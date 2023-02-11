@@ -1,9 +1,6 @@
-const name='name'
+const names= require('./4namesmodule')
 
-const sayhi=(name)=>{
-    console.log(`hello there ${name}`)
-}
+const sayhi=require('./3modules')
 
-sayhi('bhushan')
-sayhi('john')
-sayhi('peter')
+sayhi(names.ani)
+sayhi(names.dinoj)
