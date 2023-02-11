@@ -1,10 +1,14 @@
+
+//loops 
+//---> if loop
+
 const amount=12
 
 if(amount<15){
-    console.log("numberis small")
+    console.log("number is small")
 }
 else{
-    console.log('larger than condition')
+    console.log('number is large')
 }
 
 console.log('my first node project')
