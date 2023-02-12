@@ -1,0 +1,1 @@
+here is the new result : hello this is the first text file , this is the second file in folder
