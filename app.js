@@ -1,8 +1,6 @@
-const names= require('./4namesmodule')
+const path = require("path")
 
-const sayhi=require('./3modules')
+console.log(path.sep)
 
-require('./sums')
-
-sayhi(names.ani)
-sayhi(names.dinoj)
+const filepath=path.join('/content','subfolder','test.txt')
+console.log(filepath)
