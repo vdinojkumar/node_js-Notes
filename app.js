@@ -1,6 +1,4 @@
-const path = require("path")
+const {readFileSync , writeFileSync} = require('fs')
 
-console.log(path.sep)
-
-const filepath=path.join('/content','subfolder','test.txt')
-console.log(filepath)
+const fs =reqire('fs')
+fs.readFileSync
