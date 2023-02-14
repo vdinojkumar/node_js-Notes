@@ -12,6 +12,6 @@
 //package.json - manifest files ( stores important info about projects / packages )
 //manual approach (create package.json in root , creates propertirsn etc)
 // npm init(setp by step , press enter to skip)
-//npm inti -y(everthing default)
+//npm init -y(everthing default)
 
 
