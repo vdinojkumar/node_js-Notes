@@ -1,0 +1,27 @@
+{
+  "name": "node_notes",
+  "version": "1.0.0",
+  "description": "",
+  "main": "1intro.js",
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vdinojkumar/node_js-Notes.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vdinojkumar/node_js-Notes/issues"
+  },
+  "homepage": "https://github.com/vdinojkumar/node_js-Notes#readme",
+  "dependencies": {
+    "bootstrap": "^5.2.3",
+    "loadsh": "^0.0.4"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
