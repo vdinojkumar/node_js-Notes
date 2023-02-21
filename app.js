@@ -1,14 +1,21 @@
-const http = require('http')
+const http =require('http')
 
-const server= http.createServer((req,res)=>{
-    console.log('request event')
-    res.end(`
-    <h1>OOPS!</h1>
-    <p>sorry this page is not availabe</p>
-    <a href="/">backHome</a>
-    `)
+
+const server=http.createServer((req,res)=>{
+    if(req.url==='/'){
+        res.end('Home page')
+    }
+    if(req.url==='/abt'){
+        //BLOCKING VODE
+        for(let i=0;i<1000;i++){
+            for(let j=0;j<100;j++){
+                console.log(`${i,j}`)
+            }
+        }
+    }
+    res.end('error page')
 })
 
 server.listen(5000,()=>{
-    console.log('Server listening on port : 5000......... ')
+    console.log('server gettin ready')
 })
