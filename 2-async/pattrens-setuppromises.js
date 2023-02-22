@@ -1,4 +1,4 @@
-const {readFile}=require('fs')
+import { readFile } from 'fs'
 
 
 const getText=(path)=>{
@@ -14,4 +14,6 @@ const getText=(path)=>{
 }
 
 
-getText('./content/first.txt').then((result)=>console.log(result)).catch((err)=> console.log(err))
+getText('./content/second.txt')
+ .then((result)=>console.log(result))
+ .catch((err)=> console.log(err))
