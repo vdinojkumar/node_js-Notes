@@ -1,1 +1,1 @@
-this is the second file in folder
+This is the second file in folder
